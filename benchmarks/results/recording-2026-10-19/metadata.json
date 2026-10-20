@@ -1,0 +1,95 @@
+{
+  "started_at": "2026-10-19T00:06:49.112721+00:00",
+  "audio_path": "/home/pi/Documents/Recording.mp3",
+  "sha256": "b1acc2f9d03c2753c3a246a8e210c57fb73b630303c590ce1459d3ce3151b8e0",
+  "audio_duration_seconds": 16.488,
+  "audio_probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "mp3",
+        "codec_long_name": "MP3 (MPEG audio layer 3)",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "sample_fmt": "fltp",
+        "sample_rate": "24000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/14112000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 232678656,
+        "duration": "16.488000",
+        "bit_rate": "160000",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        }
+      }
+    ],
+    "format": {
+      "filename": "/home/pi/Documents/Recording.mp3",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mp3",
+      "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+      "start_time": "0.000000",
+      "duration": "16.488000",
+      "size": "329760",
+      "bit_rate": "160000",
+      "probe_score": 51
+    }
+  },
+  "device": "Raspberry Pi 5 Model B Rev 1.1",
+  "platform": "Linux-6.12.47+rpt-rpi-2712-aarch64-with-glibc2.41",
+  "python": "3.14.8 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:30:23) [GCC 14.3.0]",
+  "sdk_version": "2.1.0",
+  "cpu_count": 4,
+  "initial_telemetry": {
+    "rss_bytes": 27213824,
+    "temperature_c": 51.25,
+    "cpu_frequency_mhz": 2400.0,
+    "load_average": [
+      1.7900390625,
+      2.5205078125,
+      1.85888671875
+    ],
+    "system_memory_bytes": {
+      "MemAvailable": 5121425408,
+      "SwapTotal": 2147467264,
+      "SwapFree": 2147467264
+    }
+  },
+  "methodology": {
+    "processes": "Fresh process per model/repetition; sequential, alternating model order",
+    "load": "model.load() only; SDK/catalog/cache/download timings reported separately",
+    "transcription": "Unmodified app FoundryBackend.transcribe(model, original_mp3, 'auto'); includes decoding/session creation",
+    "rtf": "transcription wall seconds / ffprobe container duration seconds",
+    "memory": "Linux ru_maxrss whole-process high-water RSS including native allocations; NOT model-only RAM or system memory",
+    "cache": "Fresh model process, not an OS filesystem cold-cache benchmark; caches are not flushed",
+    "quality": "Text-only qualitative comparison; no human reference or listening-based accuracy measurement"
+  }
+}

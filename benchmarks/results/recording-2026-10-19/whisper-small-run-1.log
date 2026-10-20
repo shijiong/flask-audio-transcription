@@ -1,0 +1,14 @@
+START sdk_initialization
+Initializing Foundry Local and registering execution providers…
+END sdk_initialization: 0.110s; process peak 60.3 MiB
+START catalog_lookup
+END catalog_lookup: 2.733s; process peak 65.9 MiB
+START download_or_cache_check
+Download whisper-small: 100.0%
+END download_or_cache_check: 0.000s; process peak 65.9 MiB
+START model_load
+END model_load: 5.656s; process peak 495.3 MiB
+START transcription
+END transcription: 10.803s; process peak 824.5 MiB
+START unload
+END unload: 0.124s; process peak 824.5 MiB
