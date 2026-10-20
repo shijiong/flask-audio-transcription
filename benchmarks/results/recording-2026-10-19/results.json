@@ -1,0 +1,1645 @@
+{
+  "metadata": {
+    "started_at": "2026-10-19T00:06:49.112721+00:00",
+    "audio_path": "/home/pi/Documents/Recording.mp3",
+    "sha256": "b1acc2f9d03c2753c3a246a8e210c57fb73b630303c590ce1459d3ce3151b8e0",
+    "audio_duration_seconds": 16.488,
+    "audio_probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "mp3",
+          "codec_long_name": "MP3 (MPEG audio layer 3)",
+          "codec_type": "audio",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "sample_fmt": "fltp",
+          "sample_rate": "24000",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/14112000",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 232678656,
+          "duration": "16.488000",
+          "bit_rate": "160000",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          }
+        }
+      ],
+      "format": {
+        "filename": "/home/pi/Documents/Recording.mp3",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mp3",
+        "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+        "start_time": "0.000000",
+        "duration": "16.488000",
+        "size": "329760",
+        "bit_rate": "160000",
+        "probe_score": 51
+      }
+    },
+    "device": "Raspberry Pi 5 Model B Rev 1.1",
+    "platform": "Linux-6.12.47+rpt-rpi-2712-aarch64-with-glibc2.41",
+    "python": "3.14.8 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:30:23) [GCC 14.3.0]",
+    "sdk_version": "2.1.0",
+    "cpu_count": 4,
+    "initial_telemetry": {
+      "rss_bytes": 27213824,
+      "temperature_c": 51.25,
+      "cpu_frequency_mhz": 2400.0,
+      "load_average": [
+        1.7900390625,
+        2.5205078125,
+        1.85888671875
+      ],
+      "system_memory_bytes": {
+        "MemAvailable": 5121425408,
+        "SwapTotal": 2147467264,
+        "SwapFree": 2147467264
+      }
+    },
+    "methodology": {
+      "processes": "Fresh process per model/repetition; sequential, alternating model order",
+      "load": "model.load() only; SDK/catalog/cache/download timings reported separately",
+      "transcription": "Unmodified app FoundryBackend.transcribe(model, original_mp3, 'auto'); includes decoding/session creation",
+      "rtf": "transcription wall seconds / ffprobe container duration seconds",
+      "memory": "Linux ru_maxrss whole-process high-water RSS including native allocations; NOT model-only RAM or system memory",
+      "cache": "Fresh model process, not an OS filesystem cold-cache benchmark; caches are not flushed",
+      "quality": "Text-only qualitative comparison; no human reference or listening-based accuracy measurement"
+    }
+  },
+  "runs": [
+    {
+      "model_alias": "whisper-tiny",
+      "run": 1,
+      "pid": 5237,
+      "audio_path": "/home/pi/Documents/Recording.mp3",
+      "language": "auto",
+      "stages": {
+        "sdk_initialization": {
+          "before": {
+            "rss_bytes": 26787840,
+            "temperature_c": 50.7,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              1.7900390625,
+              2.5205078125,
+              1.85888671875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5105303552,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 0.5482659530000547,
+          "cpu_seconds": 0.16063889799999997,
+          "after": {
+            "rss_bytes": 62980096,
+            "temperature_c": 50.7,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              1.7900390625,
+              2.5205078125,
+              1.85888671875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5088542720,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 60.0625,
+          "max_temperature_c": 51.8,
+          "process_high_water_rss_mib": 58.046875,
+          "minimum_system_available_mib": 4850.59375
+        },
+        "catalog_lookup": {
+          "before": {
+            "rss_bytes": 62996480,
+            "temperature_c": 50.7,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              1.7900390625,
+              2.5205078125,
+              1.85888671875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5088542720,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 4.196636800000078,
+          "cpu_seconds": 0.13622695299999998,
+          "after": {
+            "rss_bytes": 71270400,
+            "temperature_c": 50.7,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.04736328125,
+              2.56201171875,
+              1.8759765625
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5095211008,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 67.96875,
+          "max_temperature_c": 52.35,
+          "process_high_water_rss_mib": 66.6875,
+          "minimum_system_available_mib": 4851.90625
+        },
+        "download_or_cache_check": {
+          "before": {
+            "rss_bytes": 71270400,
+            "temperature_c": 50.7,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.04736328125,
+              2.56201171875,
+              1.8759765625
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5095211008,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 0.000232111999935114,
+          "cpu_seconds": 0.00023509300000001954,
+          "after": {
+            "rss_bytes": 71303168,
+            "temperature_c": 50.7,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.04736328125,
+              2.56201171875,
+              1.8759765625
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5095211008,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 68.0,
+          "max_temperature_c": 50.7,
+          "process_high_water_rss_mib": 66.6875,
+          "minimum_system_available_mib": 4859.171875
+        },
+        "model_load": {
+          "before": {
+            "rss_bytes": 71303168,
+            "temperature_c": 50.7,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.04736328125,
+              2.56201171875,
+              1.8759765625
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5095211008,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 2.6337246809999897,
+          "cpu_seconds": 2.0088354969999997,
+          "after": {
+            "rss_bytes": 226590720,
+            "temperature_c": 51.25,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.2841796875,
+              2.6025390625,
+              1.89306640625
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4931518464,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 216.09375,
+          "max_temperature_c": 52.9,
+          "process_high_water_rss_mib": 214.65625,
+          "minimum_system_available_mib": 4701.96875
+        },
+        "transcription": {
+          "before": {
+            "rss_bytes": 226590720,
+            "temperature_c": 51.25,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.2841796875,
+              2.6025390625,
+              1.89306640625
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4931518464,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 3.175386236999998,
+          "cpu_seconds": 4.180811627,
+          "after": {
+            "rss_bytes": 356220928,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.2841796875,
+              2.6025390625,
+              1.89306640625
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4789075968,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 339.71875,
+          "max_temperature_c": 55.1,
+          "process_high_water_rss_mib": 337.484375,
+          "minimum_system_available_mib": 4565.65625
+        },
+        "unload": {
+          "before": {
+            "rss_bytes": 356220928,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.2841796875,
+              2.6025390625,
+              1.89306640625
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4789075968,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 0.10407114400004502,
+          "cpu_seconds": 0.12226156799999988,
+          "after": {
+            "rss_bytes": 197705728,
+            "temperature_c": 52.35,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.2841796875,
+              2.6025390625,
+              1.89306640625
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4903419904,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 339.734375,
+          "max_temperature_c": 54.0,
+          "process_high_water_rss_mib": 337.484375,
+          "minimum_system_available_mib": 4564.078125
+        }
+      },
+      "started_at": "2026-10-19T00:06:49.330166+00:00",
+      "throttling_before": "throttled=0x0",
+      "model": {
+        "id": "openai-whisper-tiny-generic-cpu:4",
+        "alias": "whisper-tiny",
+        "version": 4,
+        "device": "CPU",
+        "execution_provider": "CPUExecutionProvider",
+        "file_size_mb": 131,
+        "cached_before": true,
+        "cache_path": "/home/pi/.foundry_local_samples/cache/models/Microsoft/openai-whisper-tiny-generic-cpu-4/v4"
+      },
+      "transcript": " And lots of times you need to give people more than one link at a time. You a band could give their fans a couple new videos from the live concert behind the scenes photo gallery and album to purchase like these next few links.",
+      "transcript_characters": 228,
+      "status": "ok",
+      "peak_process_rss_mib": 337.484375,
+      "throttling_after": "throttled=0x0",
+      "rtf": 0.19258771451965054
+    },
+    {
+      "model_alias": "whisper-small",
+      "run": 1,
+      "pid": 5305,
+      "audio_path": "/home/pi/Documents/Recording.mp3",
+      "language": "auto",
+      "stages": {
+        "sdk_initialization": {
+          "before": {
+            "rss_bytes": 26771456,
+            "temperature_c": 52.35,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.18115234375,
+              2.57568359375,
+              1.88818359375
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5060739072,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 0.11022593400002734,
+          "cpu_seconds": 0.109250722,
+          "after": {
+            "rss_bytes": 63881216,
+            "temperature_c": 51.8,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.18115234375,
+              2.57568359375,
+              1.88818359375
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5049237504,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 60.921875,
+          "max_temperature_c": 52.35,
+          "process_high_water_rss_mib": 60.3125,
+          "minimum_system_available_mib": 4815.328125
+        },
+        "catalog_lookup": {
+          "before": {
+            "rss_bytes": 63897600,
+            "temperature_c": 51.8,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.18115234375,
+              2.57568359375,
+              1.88818359375
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5049237504,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 2.73264897699994,
+          "cpu_seconds": 0.09806458200000001,
+          "after": {
+            "rss_bytes": 71876608,
+            "temperature_c": 51.25,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.18115234375,
+              2.57568359375,
+              1.88818359375
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5043650560,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 68.546875,
+          "max_temperature_c": 52.9,
+          "process_high_water_rss_mib": 65.859375,
+          "minimum_system_available_mib": 4808.3125
+        },
+        "download_or_cache_check": {
+          "before": {
+            "rss_bytes": 71876608,
+            "temperature_c": 51.25,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.18115234375,
+              2.57568359375,
+              1.88818359375
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5043650560,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 0.00017505699997855118,
+          "cpu_seconds": 0.00017742599999998054,
+          "after": {
+            "rss_bytes": 71892992,
+            "temperature_c": 51.25,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.18115234375,
+              2.57568359375,
+              1.88818359375
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5043650560,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 68.5625,
+          "max_temperature_c": 51.25,
+          "process_high_water_rss_mib": 65.859375,
+          "minimum_system_available_mib": 4810.0
+        },
+        "model_load": {
+          "before": {
+            "rss_bytes": 71892992,
+            "temperature_c": 51.25,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.18115234375,
+              2.57568359375,
+              1.88818359375
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5043650560,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 5.65633565600001,
+          "cpu_seconds": 3.0938117490000003,
+          "after": {
+            "rss_bytes": 521027584,
+            "temperature_c": 52.9,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.08642578125,
+              2.54931640625,
+              1.88330078125
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4896948224,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 496.890625,
+          "max_temperature_c": 54.0,
+          "process_high_water_rss_mib": 495.328125,
+          "minimum_system_available_mib": 4662.40625
+        },
+        "transcription": {
+          "before": {
+            "rss_bytes": 521027584,
+            "temperature_c": 51.8,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.08642578125,
+              2.54931640625,
+              1.88330078125
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4896948224,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 10.803335040999968,
+          "cpu_seconds": 19.411463982,
+          "after": {
+            "rss_bytes": 866025472,
+            "temperature_c": 55.1,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.15966796875,
+              2.54833984375,
+              1.89013671875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4518166528,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 825.90625,
+          "max_temperature_c": 57.3,
+          "process_high_water_rss_mib": 824.515625,
+          "minimum_system_available_mib": 4308.3125
+        },
+        "unload": {
+          "before": {
+            "rss_bytes": 866025472,
+            "temperature_c": 55.1,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.15966796875,
+              2.54833984375,
+              1.89013671875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4518166528,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 0.12359777699998631,
+          "cpu_seconds": 0.1431081660000011,
+          "after": {
+            "rss_bytes": 320258048,
+            "temperature_c": 54.55,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.15966796875,
+              2.54833984375,
+              1.89013671875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4980637696,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 825.921875,
+          "max_temperature_c": 56.2,
+          "process_high_water_rss_mib": 824.515625,
+          "minimum_system_available_mib": 4308.859375
+        }
+      },
+      "started_at": "2026-10-19T00:07:00.666783+00:00",
+      "throttling_before": "throttled=0x0",
+      "model": {
+        "id": "openai-whisper-small-generic-cpu:4",
+        "alias": "whisper-small",
+        "version": 4,
+        "device": "CPU",
+        "execution_provider": "CPUExecutionProvider",
+        "file_size_mb": 438,
+        "cached_before": true,
+        "cache_path": "/home/pi/.foundry_local_samples/cache/models/Microsoft/openai-whisper-small-generic-cpu-4/v4"
+      },
+      "transcript": " And lots of times you need to give people more than one link at a time. A band could give their fans a couple of new videos from a live concert behind the scenes photo gallery, an album to purchase, like these next few links.",
+      "transcript_characters": 226,
+      "status": "ok",
+      "peak_process_rss_mib": 824.515625,
+      "throttling_after": "throttled=0x0",
+      "rtf": 0.6552241048641417
+    },
+    {
+      "model_alias": "whisper-small",
+      "run": 2,
+      "pid": 5384,
+      "audio_path": "/home/pi/Documents/Recording.mp3",
+      "language": "auto",
+      "stages": {
+        "sdk_initialization": {
+          "before": {
+            "rss_bytes": 26787840,
+            "temperature_c": 53.45,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.06640625,
+              2.5224609375,
+              1.88525390625
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5244059648,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 0.10686386300005779,
+          "cpu_seconds": 0.10736768599999999,
+          "after": {
+            "rss_bytes": 63897600,
+            "temperature_c": 54.55,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.06640625,
+              2.5224609375,
+              1.88525390625
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5228085248,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 60.9375,
+          "max_temperature_c": 54.55,
+          "process_high_water_rss_mib": 60.328125,
+          "minimum_system_available_mib": 4985.890625
+        },
+        "catalog_lookup": {
+          "before": {
+            "rss_bytes": 63913984,
+            "temperature_c": 54.55,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.06640625,
+              2.5224609375,
+              1.88525390625
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5228085248,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 6.6626275589999295,
+          "cpu_seconds": 0.16318340199999998,
+          "after": {
+            "rss_bytes": 71991296,
+            "temperature_c": 53.45,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              1.90087890625,
+              2.48046875,
+              1.875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5250662400,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 68.65625,
+          "max_temperature_c": 54.55,
+          "process_high_water_rss_mib": 67.421875,
+          "minimum_system_available_mib": 4980.3125
+        },
+        "download_or_cache_check": {
+          "before": {
+            "rss_bytes": 71991296,
+            "temperature_c": 53.45,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              1.90087890625,
+              2.48046875,
+              1.875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5250662400,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 0.00037116800001513184,
+          "cpu_seconds": 0.00033440799999995274,
+          "after": {
+            "rss_bytes": 72007680,
+            "temperature_c": 53.45,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              1.90087890625,
+              2.48046875,
+              1.875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5250662400,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 68.671875,
+          "max_temperature_c": 53.45,
+          "process_high_water_rss_mib": 67.421875,
+          "minimum_system_available_mib": 5007.421875
+        },
+        "model_load": {
+          "before": {
+            "rss_bytes": 72007680,
+            "temperature_c": 52.35,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              1.90087890625,
+              2.48046875,
+              1.875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5250662400,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 2.75355984600003,
+          "cpu_seconds": 2.817894153,
+          "after": {
+            "rss_bytes": 521076736,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              1.9091796875,
+              2.47216796875,
+              1.8759765625
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4852482048,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 496.9375,
+          "max_temperature_c": 54.55,
+          "process_high_water_rss_mib": 495.640625,
+          "minimum_system_available_mib": 4627.6875
+        },
+        "transcription": {
+          "before": {
+            "rss_bytes": 521076736,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              1.9091796875,
+              2.47216796875,
+              1.8759765625
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4852482048,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 10.239256752000074,
+          "cpu_seconds": 18.958499544,
+          "after": {
+            "rss_bytes": 866238464,
+            "temperature_c": 56.2,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.16357421875,
+              2.50634765625,
+              1.89404296875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4421173248,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 826.125,
+          "max_temperature_c": 57.3,
+          "process_high_water_rss_mib": 824.296875,
+          "minimum_system_available_mib": 4216.359375
+        },
+        "unload": {
+          "before": {
+            "rss_bytes": 866238464,
+            "temperature_c": 56.2,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.16357421875,
+              2.50634765625,
+              1.89404296875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4421173248,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 0.14007699999990564,
+          "cpu_seconds": 0.15026806600000242,
+          "after": {
+            "rss_bytes": 273956864,
+            "temperature_c": 55.65,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.16357421875,
+              2.50634765625,
+              1.89404296875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4923588608,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 826.125,
+          "max_temperature_c": 56.2,
+          "process_high_water_rss_mib": 824.296875,
+          "minimum_system_available_mib": 4215.8125
+        }
+      },
+      "started_at": "2026-10-19T00:07:20.805421+00:00",
+      "throttling_before": "throttled=0x0",
+      "model": {
+        "id": "openai-whisper-small-generic-cpu:4",
+        "alias": "whisper-small",
+        "version": 4,
+        "device": "CPU",
+        "execution_provider": "CPUExecutionProvider",
+        "file_size_mb": 438,
+        "cached_before": true,
+        "cache_path": "/home/pi/.foundry_local_samples/cache/models/Microsoft/openai-whisper-small-generic-cpu-4/v4"
+      },
+      "transcript": " And lots of times you need to give people more than one link at a time. A band could give their fans a couple of new videos from a live concert behind the scenes photo gallery, an album to purchase, like these next few links.",
+      "transcript_characters": 226,
+      "status": "ok",
+      "peak_process_rss_mib": 824.296875,
+      "throttling_after": "throttled=0x0",
+      "rtf": 0.6210126608442549
+    },
+    {
+      "model_alias": "whisper-tiny",
+      "run": 2,
+      "pid": 5461,
+      "audio_path": "/home/pi/Documents/Recording.mp3",
+      "language": "auto",
+      "stages": {
+        "sdk_initialization": {
+          "before": {
+            "rss_bytes": 26787840,
+            "temperature_c": 54.55,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.16357421875,
+              2.50634765625,
+              1.89404296875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5135237120,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 0.11082586999998512,
+          "cpu_seconds": 0.10807625800000004,
+          "after": {
+            "rss_bytes": 63897600,
+            "temperature_c": 54.55,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.16357421875,
+              2.50634765625,
+              1.89404296875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5133369344,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 60.9375,
+          "max_temperature_c": 55.65,
+          "process_high_water_rss_mib": 59.765625,
+          "minimum_system_available_mib": 4895.5625
+        },
+        "catalog_lookup": {
+          "before": {
+            "rss_bytes": 63913984,
+            "temperature_c": 54.55,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.16357421875,
+              2.50634765625,
+              1.89404296875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5133369344,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 2.502006951999988,
+          "cpu_seconds": 0.11525241200000003,
+          "after": {
+            "rss_bytes": 71892992,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.16357421875,
+              2.50634765625,
+              1.89404296875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5129584640,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 68.5625,
+          "max_temperature_c": 56.2,
+          "process_high_water_rss_mib": 66.90625,
+          "minimum_system_available_mib": 4891.953125
+        },
+        "download_or_cache_check": {
+          "before": {
+            "rss_bytes": 71892992,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.16357421875,
+              2.50634765625,
+              1.89404296875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5129584640,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 0.000337391000016396,
+          "cpu_seconds": 0.00034451799999996036,
+          "after": {
+            "rss_bytes": 71909376,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.16357421875,
+              2.50634765625,
+              1.89404296875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5129584640,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 68.578125,
+          "max_temperature_c": 54.0,
+          "process_high_water_rss_mib": 66.90625,
+          "minimum_system_available_mib": 4891.953125
+        },
+        "model_load": {
+          "before": {
+            "rss_bytes": 71909376,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.16357421875,
+              2.50634765625,
+              1.89404296875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5129584640,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 1.8751342950000662,
+          "cpu_seconds": 1.934401845,
+          "after": {
+            "rss_bytes": 226918400,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.39111328125,
+              2.5478515625,
+              1.9111328125
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5011636224,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 216.40625,
+          "max_temperature_c": 55.1,
+          "process_high_water_rss_mib": 214.90625,
+          "minimum_system_available_mib": 4779.46875
+        },
+        "transcription": {
+          "before": {
+            "rss_bytes": 226918400,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.39111328125,
+              2.5478515625,
+              1.9111328125
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5011636224,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 2.676254288999985,
+          "cpu_seconds": 4.032657445,
+          "after": {
+            "rss_bytes": 356466688,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.39111328125,
+              2.5478515625,
+              1.9111328125
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4894801920,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 339.96875,
+          "max_temperature_c": 56.75,
+          "process_high_water_rss_mib": 338.421875,
+          "minimum_system_available_mib": 4667.0625
+        },
+        "unload": {
+          "before": {
+            "rss_bytes": 356466688,
+            "temperature_c": 55.1,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.39111328125,
+              2.5478515625,
+              1.9111328125
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4894801920,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 0.10362141799998881,
+          "cpu_seconds": 0.12226290899999981,
+          "after": {
+            "rss_bytes": 197902336,
+            "temperature_c": 56.2,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.39111328125,
+              2.5478515625,
+              1.9111328125
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4956651520,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 339.96875,
+          "max_temperature_c": 56.2,
+          "process_high_water_rss_mib": 338.421875,
+          "minimum_system_available_mib": 4668.046875
+        }
+      },
+      "started_at": "2026-10-19T00:07:41.428274+00:00",
+      "throttling_before": "throttled=0x0",
+      "model": {
+        "id": "openai-whisper-tiny-generic-cpu:4",
+        "alias": "whisper-tiny",
+        "version": 4,
+        "device": "CPU",
+        "execution_provider": "CPUExecutionProvider",
+        "file_size_mb": 131,
+        "cached_before": true,
+        "cache_path": "/home/pi/.foundry_local_samples/cache/models/Microsoft/openai-whisper-tiny-generic-cpu-4/v4"
+      },
+      "transcript": " And lots of times you need to give people more than one link at a time. You a band could give their fans a couple new videos from the live concert behind the scenes photo gallery and album to purchase like these next few links.",
+      "transcript_characters": 228,
+      "status": "ok",
+      "peak_process_rss_mib": 338.421875,
+      "throttling_after": "throttled=0x0",
+      "rtf": 0.162315277110625
+    },
+    {
+      "model_alias": "whisper-tiny",
+      "run": 3,
+      "pid": 5524,
+      "audio_path": "/home/pi/Documents/Recording.mp3",
+      "language": "auto",
+      "stages": {
+        "sdk_initialization": {
+          "before": {
+            "rss_bytes": 26771456,
+            "temperature_c": 54.55,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.39111328125,
+              2.5478515625,
+              1.9111328125
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5096767488,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 0.1103576850000536,
+          "cpu_seconds": 0.11161429300000003,
+          "after": {
+            "rss_bytes": 63881216,
+            "temperature_c": 54.55,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.39111328125,
+              2.5478515625,
+              1.9111328125
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5098520576,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 60.921875,
+          "max_temperature_c": 54.55,
+          "process_high_water_rss_mib": 60.3125,
+          "minimum_system_available_mib": 4860.65625
+        },
+        "catalog_lookup": {
+          "before": {
+            "rss_bytes": 63897600,
+            "temperature_c": 55.1,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.39111328125,
+              2.5478515625,
+              1.9111328125
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5098520576,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 2.844377570000006,
+          "cpu_seconds": 0.10645158500000002,
+          "after": {
+            "rss_bytes": 71876608,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.43994140625,
+              2.5556640625,
+              1.9169921875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5126553600,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 68.546875,
+          "max_temperature_c": 56.2,
+          "process_high_water_rss_mib": 67.421875,
+          "minimum_system_available_mib": 4861.171875
+        },
+        "download_or_cache_check": {
+          "before": {
+            "rss_bytes": 71876608,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.43994140625,
+              2.5556640625,
+              1.9169921875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5126553600,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 0.00020346400003745657,
+          "cpu_seconds": 0.00020690699999997841,
+          "after": {
+            "rss_bytes": 71892992,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.43994140625,
+              2.5556640625,
+              1.9169921875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5126553600,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 68.5625,
+          "max_temperature_c": 54.0,
+          "process_high_water_rss_mib": 67.421875,
+          "minimum_system_available_mib": 4889.0625
+        },
+        "model_load": {
+          "before": {
+            "rss_bytes": 71892992,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.43994140625,
+              2.5556640625,
+              1.9169921875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5126553600,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 1.7812213290000045,
+          "cpu_seconds": 1.844448469,
+          "after": {
+            "rss_bytes": 226902016,
+            "temperature_c": 54.55,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.43994140625,
+              2.5556640625,
+              1.9169921875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4987207680,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 216.390625,
+          "max_temperature_c": 56.2,
+          "process_high_water_rss_mib": 215.0,
+          "minimum_system_available_mib": 4756.171875
+        },
+        "transcription": {
+          "before": {
+            "rss_bytes": 226902016,
+            "temperature_c": 54.55,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.43994140625,
+              2.5556640625,
+              1.9169921875
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4987207680,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 2.4214158769999585,
+          "cpu_seconds": 3.7742681780000003,
+          "after": {
+            "rss_bytes": 356433920,
+            "temperature_c": 56.2,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.64501953125,
+              2.5966796875,
+              1.93359375
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4911792128,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 339.921875,
+          "max_temperature_c": 57.85,
+          "process_high_water_rss_mib": 338.703125,
+          "minimum_system_available_mib": 4684.25
+        },
+        "unload": {
+          "before": {
+            "rss_bytes": 356433920,
+            "temperature_c": 56.2,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.64501953125,
+              2.5966796875,
+              1.93359375
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4911792128,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 0.10037509400001454,
+          "cpu_seconds": 0.1201717819999999,
+          "after": {
+            "rss_bytes": 197869568,
+            "temperature_c": 56.2,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.64501953125,
+              2.5966796875,
+              1.93359375
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4970364928,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 339.9375,
+          "max_temperature_c": 56.2,
+          "process_high_water_rss_mib": 338.703125,
+          "minimum_system_available_mib": 4684.25
+        }
+      },
+      "started_at": "2026-10-19T00:07:49.413660+00:00",
+      "throttling_before": "throttled=0x0",
+      "model": {
+        "id": "openai-whisper-tiny-generic-cpu:4",
+        "alias": "whisper-tiny",
+        "version": 4,
+        "device": "CPU",
+        "execution_provider": "CPUExecutionProvider",
+        "file_size_mb": 131,
+        "cached_before": true,
+        "cache_path": "/home/pi/.foundry_local_samples/cache/models/Microsoft/openai-whisper-tiny-generic-cpu-4/v4"
+      },
+      "transcript": " And lots of times you need to give people more than one link at a time. You a band could give their fans a couple new videos from the live concert behind the scenes photo gallery and album to purchase like these next few links.",
+      "transcript_characters": 228,
+      "status": "ok",
+      "peak_process_rss_mib": 338.703125,
+      "throttling_after": "throttled=0x0",
+      "rtf": 0.1468592841460431
+    },
+    {
+      "model_alias": "whisper-small",
+      "run": 3,
+      "pid": 5568,
+      "audio_path": "/home/pi/Documents/Recording.mp3",
+      "language": "auto",
+      "stages": {
+        "sdk_initialization": {
+          "before": {
+            "rss_bytes": 26787840,
+            "temperature_c": 54.55,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.64501953125,
+              2.5966796875,
+              1.93359375
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5085511680,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 0.10923177600000145,
+          "cpu_seconds": 0.11057836600000001,
+          "after": {
+            "rss_bytes": 63897600,
+            "temperature_c": 54.55,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.64501953125,
+              2.5966796875,
+              1.93359375
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5073485824,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 60.9375,
+          "max_temperature_c": 55.1,
+          "process_high_water_rss_mib": 59.578125,
+          "minimum_system_available_mib": 4838.453125
+        },
+        "catalog_lookup": {
+          "before": {
+            "rss_bytes": 63913984,
+            "temperature_c": 54.55,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.64501953125,
+              2.5966796875,
+              1.93359375
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5073485824,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 2.7375971540000137,
+          "cpu_seconds": 0.09784278200000002,
+          "after": {
+            "rss_bytes": 71892992,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.64501953125,
+              2.5966796875,
+              1.93359375
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5100961792,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 68.5625,
+          "max_temperature_c": 55.65,
+          "process_high_water_rss_mib": 67.28125,
+          "minimum_system_available_mib": 4830.1875
+        },
+        "download_or_cache_check": {
+          "before": {
+            "rss_bytes": 71892992,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.64501953125,
+              2.5966796875,
+              1.93359375
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5100961792,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 0.00018683400003283168,
+          "cpu_seconds": 0.00018981399999995485,
+          "after": {
+            "rss_bytes": 71909376,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.64501953125,
+              2.5966796875,
+              1.93359375
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5100961792,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 68.578125,
+          "max_temperature_c": 54.0,
+          "process_high_water_rss_mib": 67.28125,
+          "minimum_system_available_mib": 4864.65625
+        },
+        "model_load": {
+          "before": {
+            "rss_bytes": 71909376,
+            "temperature_c": 54.0,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.64501953125,
+              2.5966796875,
+              1.93359375
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 5100961792,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 2.8102245750000066,
+          "cpu_seconds": 2.862746107,
+          "after": {
+            "rss_bytes": 520978432,
+            "temperature_c": 55.1,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.673828125,
+              2.603515625,
+              1.939453125
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4776067072,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 496.84375,
+          "max_temperature_c": 56.2,
+          "process_high_water_rss_mib": 494.890625,
+          "minimum_system_available_mib": 4554.8125
+        },
+        "transcription": {
+          "before": {
+            "rss_bytes": 520978432,
+            "temperature_c": 55.1,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.673828125,
+              2.603515625,
+              1.939453125
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4776067072,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 10.397735578000038,
+          "cpu_seconds": 19.021265092,
+          "after": {
+            "rss_bytes": 866238464,
+            "temperature_c": 56.75,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.650390625,
+              2.60009765625,
+              1.94580078125
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4402757632,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 826.125,
+          "max_temperature_c": 59.5,
+          "process_high_water_rss_mib": 824.6875,
+          "minimum_system_available_mib": 4198.796875
+        },
+        "unload": {
+          "before": {
+            "rss_bytes": 866238464,
+            "temperature_c": 56.75,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.650390625,
+              2.60009765625,
+              1.94580078125
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4402757632,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "seconds": 0.11792678100005105,
+          "cpu_seconds": 0.13873498200000256,
+          "after": {
+            "rss_bytes": 320258048,
+            "temperature_c": 57.3,
+            "cpu_frequency_mhz": 2400.0,
+            "load_average": [
+              2.650390625,
+              2.60009765625,
+              1.94580078125
+            ],
+            "system_memory_bytes": {
+              "MemAvailable": 4871864320,
+              "SwapTotal": 2147467264,
+              "SwapFree": 2147467264
+            }
+          },
+          "sampled_peak_rss_mib": 826.125,
+          "max_temperature_c": 57.85,
+          "process_high_water_rss_mib": 824.6875,
+          "minimum_system_available_mib": 4196.0625
+        }
+      },
+      "started_at": "2026-10-19T00:07:57.394612+00:00",
+      "throttling_before": "throttled=0x0",
+      "model": {
+        "id": "openai-whisper-small-generic-cpu:4",
+        "alias": "whisper-small",
+        "version": 4,
+        "device": "CPU",
+        "execution_provider": "CPUExecutionProvider",
+        "file_size_mb": 438,
+        "cached_before": true,
+        "cache_path": "/home/pi/.foundry_local_samples/cache/models/Microsoft/openai-whisper-small-generic-cpu-4/v4"
+      },
+      "transcript": " And lots of times you need to give people more than one link at a time. A band could give their fans a couple of new videos from a live concert behind the scenes photo gallery, an album to purchase, like these next few links.",
+      "transcript_characters": 226,
+      "status": "ok",
+      "peak_process_rss_mib": 824.6875,
+      "throttling_after": "throttled=0x0",
+      "rtf": 0.6306244285541023
+    }
+  ],
+  "summary": {
+    "whisper-tiny": {
+      "runs": 3,
+      "median_load_seconds": 1.8751342950000662,
+      "median_transcription_seconds": 2.676254288999985,
+      "median_rtf": 0.162315277110625,
+      "maximum_peak_process_rss_mib": 338.703125
+    },
+    "whisper-small": {
+      "runs": 3,
+      "median_load_seconds": 2.8102245750000066,
+      "median_transcription_seconds": 10.397735578000038,
+      "median_rtf": 0.6306244285541023,
+      "maximum_peak_process_rss_mib": 824.6875
+    }
+  }
+}
