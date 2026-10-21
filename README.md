@@ -2,6 +2,8 @@
 
 [简体中文](README.zh-CN.md)
 
+![Voice Notes cover](assets/Cover_en.png)
+
 A standalone, local-only web application for live speech transcription and batch audio transcription. It builds on the existing Foundry Local samples without changing them. The interface, app messages, export headings, and generated summaries are in English. Transcripts retain the language recognized by the selected speech model.
 
 ## Features
