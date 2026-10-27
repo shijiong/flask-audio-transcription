@@ -1,0 +1,22 @@
+{
+  "started_at": "2026-10-19T03:42:04.020708+00:00",
+  "case": "original_saved_transcript",
+  "model_alias": "qwen3-0.6b",
+  "source_path": "/home/pi/Documents/python/foundry-local/flask-audio-transcription/data/5f1c9abaeace4d05a9079f087ef935e9/transcript.json",
+  "source_field": "text",
+  "source_sha256": "e667045d0b1c9e048826d9e578818ea2bcbb8d6745f1bbfdcfe3933a885cf962",
+  "input_sha256": "37c2dc9d3245b78478fb01de14948d0840db7232877127de3aac3e7b4fea02fd",
+  "input_characters": 786,
+  "input_utf8_bytes": 786,
+  "input_transformations": "none; original JSON text field, including whitespace and language tags",
+  "device": "Raspberry Pi 5 Model B Rev 1.1",
+  "cpu_count": 4,
+  "platform": "Linux-6.12.47+rpt-rpi-2712-aarch64-with-glibc2.41",
+  "python": "3.14.8 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:30:23) [GCC 14.3.0]",
+  "sdk_version": "2.1.0",
+  "backend_path": "/home/pi/Documents/python/foundry-local/flask-audio-transcription/src/foundry_backend.py",
+  "backend_sha256": "245f2615440f3f0b48fbcc8d5eb10732d141e9c131e419e8f8a6a716570029c4",
+  "service_sha256": "11dc90cc74cb896390106b60e694206bed1854c89a351daf1a2dc4bbf196cd6d",
+  "harness_sha256": "0d6e1ae5b745b1615acbdf9eddac6009b178a3ebc013df2076be80bac5d23bfb",
+  "shared_helpers_sha256": "8a9d80db28a2c5f958b93bbb8a8ef85773706d7e44aff120052f978598eeb801"
+}

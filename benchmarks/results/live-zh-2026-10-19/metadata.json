@@ -1,0 +1,88 @@
+{
+  "started_at": "2026-10-19T02:36:03.745653+00:00",
+  "audio_path": "/home/pi/Documents/output_16k_mono.wav",
+  "language": "zh-CN",
+  "model_alias": "nemotron-3.5-asr-streaming-0.6b",
+  "input_sha256": "f74905ba0953dfd9f5e287efeb9bcf1b4fc8f70243dcf1746a6d3ecf8a6c7cd4",
+  "pcm_sha256": "455106c9f35ae16df37fee41763b82fb57f23761240fda597eb0248297544949",
+  "audio_probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "pcm_s16le",
+        "codec_long_name": "PCM signed 16-bit little-endian",
+        "codec_type": "audio",
+        "codec_tag_string": "[1][0][0][0]",
+        "codec_tag": "0x0001",
+        "sample_fmt": "s16",
+        "sample_rate": "16000",
+        "channels": 1,
+        "bits_per_sample": 16,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/16000",
+        "duration_ts": 255977,
+        "duration": "15.998563",
+        "bit_rate": "256000",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        }
+      }
+    ],
+    "format": {
+      "filename": "/home/pi/Documents/output_16k_mono.wav",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "wav",
+      "format_long_name": "WAV / WAVE (Waveform Audio)",
+      "duration": "15.998563",
+      "size": "512032",
+      "bit_rate": "256038",
+      "probe_score": 99,
+      "tags": {
+        "encoder": "Lavf60.10.100"
+      }
+    }
+  },
+  "wave_header": {
+    "sample_rate": 16000,
+    "channels": 1,
+    "sample_width_bytes": 2,
+    "compression": "NONE",
+    "frames": 255977
+  },
+  "pcm_bytes": 511954,
+  "pcm_duration_seconds": 15.9985625,
+  "preprocess_seconds": 0.0007625250000273809,
+  "preprocess_method": "Python wave.readframes: extract exact original 16kHz mono PCM16LE, discard WAV container only; no resample, trim, gain, or added silence",
+  "device": "Raspberry Pi 5 Model B Rev 1.1",
+  "cpu_count": 4,
+  "platform": "Linux-6.12.47+rpt-rpi-2712-aarch64-with-glibc2.41",
+  "python": "3.14.8 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:30:23) [GCC 14.3.0]",
+  "sdk_version": "2.1.0",
+  "backend_path": "/home/pi/Documents/python/foundry-local/flask-audio-transcription/src/foundry_backend.py",
+  "backend_sha256": "245f2615440f3f0b48fbcc8d5eb10732d141e9c131e419e8f8a6a716570029c4",
+  "service_sha256": "11dc90cc74cb896390106b60e694206bed1854c89a351daf1a2dc4bbf196cd6d",
+  "harness_sha256": "22f8b7120b7903b2344dad2f67ccf4b97ffb83dbfe3de88b129047f18b3037c2",
+  "shared_telemetry_helpers_sha256": "8a9d80db28a2c5f958b93bbb8a8ef85773706d7e44aff120052f978598eeb801"
+}
